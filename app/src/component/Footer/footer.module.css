@@ -1,0 +1,141 @@
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.footerM .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerM{
+
+    padding: 70px 0 ;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+
+.footercol{
+    width: 25%;
+    padding: 0 15px ;
+}
+.h3{
+font-size: 20px;
+color: black;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+}
+
+.li{
+   margin-bottom: 30px;
+}
+.a{
+    text-transform: uppercase;
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    display: block;
+    transition: all 0.3 ease-in ;
+    margin-bottom: 5px;
+    
+}
+.a:hover{
+    color:  #f984aa ;
+    padding-left: 10px;
+   
+}
+
+@media screen and (max-width: 500px){
+   .iner{
+    display: block !important;
+   }
+   .box{
+    margin-bottom: 30px;
+    
+   }   
+   .botm{
+    width: 100%;
+    padding-right: 50px;
+   }
+ 
+}
+/*Mediaquery*/
+@media(max-width:767px){
+    .footercol{
+        width: 50%;
+        
+      
+        margin-bottom: 30px;
+    }
+    .h3{
+        font-size: 22px;
+    }
+    .a{
+       font-size: 20px ;
+    }
+}
+
+@media(max-width:574px){
+    .footercol{
+        width: 100%;
+    
+    }
+    .h3{
+        font-size: 22px;
+    }
+    .a{
+       font-size: 20px ;
+    }
+}
+/*footertop*/
+.icon{
+    display: inline-block;
+  
+    line-height: 14px;
+    color: #f984aa;
+}
+.span{
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left; 
+    color: #f984aa;
+}
+.text{
+    font-size: 26px;
+    color: #222222;
+    line-height: 30px;
+    margin-right: 20px;
+    
+   
+}
+.i{
+    color: #f984aa;
+    margin-right: 10px;
+}
+.para{
+    padding: 14px 0 12px 0;
+    float: left;
+    color: #888;
+    font-size: 13px;
+    background: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    margin-right: 5px;
+}
+.pos{
+    padding: 14px 0 12px 0;
+    float: left;
+    color: #f984aa;
+    font-size: 13px;
+    background: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}

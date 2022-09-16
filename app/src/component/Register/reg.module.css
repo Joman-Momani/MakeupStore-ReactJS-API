@@ -1,0 +1,19 @@
+.bb{
+    position: relative;
+      font-size: 14px;
+      color: #222;
+      padding: 0 35px;
+      height: 44px;
+      line-height: 41px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: 2px solid #222;
+      border-radius: 30px;
+      font-family: 'Lato', sans-serif;
+      display: inline-block;
+  }
+  .bb:hover{
+    background-color: #f984aa !important;
+    border: #f984aa;
+    color: #fff;
+  }

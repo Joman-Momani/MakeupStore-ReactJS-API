@@ -1,0 +1,31 @@
+
+.h1{
+ margin-bottom: 30px;
+ font-size: 50px;
+}
+.p{
+font-size: 22px;
+}
+.all{
+  
+   box-shadow: 2px 2px 11px 0px rgb(0 0 0 / 10%);
+}
+@media(max-width:574px){
+ .h1{
+    font-size: 30px;
+ }
+ .p{
+    width: 100%;
+    font-size: 22px;
+ }
+}
+@media screen and (max-width: 500px) {
+   .h1{
+      font-size: 40px;
+   }
+   .p{
+      width: 100%;
+      font-size: 16px;
+   }
+   
+   }
